@@ -14,7 +14,7 @@
 ```
 
 
-Clean Architecture
+Clean Architecture example 
 ----
 Features:
 
@@ -22,3 +22,7 @@ Features:
 - The Domain layer encapsulates the logic and business rules.
 - The internal layers of Clean Architecture do not depend on external frameworks or libraries.
 - The Dependency Inversion Principle is used to decouple dependencies between layers, allowing internal layers to not depend on external layers.
+
+
+
+https://www.geeksforgeeks.org/complete-guide-to-clean-architecture/
