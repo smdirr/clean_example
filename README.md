@@ -1,4 +1,4 @@
-.
+```.
 ├── app/
 │   ├── domain/
 │   │   ├── entities.py
@@ -11,9 +11,11 @@
 │   ├── ui/
 │   │   ├── cli.py
 ├── main.py
+```
+
 
 Clean Architecture
-
+----
 Features:
 
 - The application is divided into well-defined layers, such as the domain layer, the application layer, and the infrastructure layer, each with a clear and specific responsibility.
