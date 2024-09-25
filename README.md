@@ -13,9 +13,8 @@
 ├── main.py
 ```
 
+## Clean Architecture example
 
-Clean Architecture example 
-----
 Features:
 
 - The application is divided into well-defined layers, such as the domain layer, the application layer, and the infrastructure layer, each with a clear and specific responsibility.
@@ -23,6 +22,5 @@ Features:
 - The internal layers of Clean Architecture do not depend on external frameworks or libraries.
 - The Dependency Inversion Principle is used to decouple dependencies between layers, allowing internal layers to not depend on external layers.
 
-
-
+https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 https://www.geeksforgeeks.org/complete-guide-to-clean-architecture/
