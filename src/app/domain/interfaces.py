@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 
+
 class TaskRepository(ABC):
+
     @abstractmethod
     def add(self, task):
         pass
