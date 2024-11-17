@@ -1,4 +1,5 @@
 class Task:
+
     def __init__(self, task_id: int, title: str, description: str):
         self.task_id = task_id
         self.title = title

@@ -1,7 +1,9 @@
 from app.domain.interfaces import TaskRepository
 from app.domain.entities import Task
 
+
 class InMemoryTaskRepository(TaskRepository):
+
     def __init__(self):
         self.tasks = []
         self.next_id = 1
@@ -18,6 +20,9 @@ class InMemoryTaskRepository(TaskRepository):
         return self.tasks
 
     def update(self, task):
-        index = next((i for i, t in enumerate(self.tasks) if t.task_id == task.task_id), None)
+        index = next(
+            (i for i, t in enumerate(self.tasks) if t.task_id == task.task_id), None
+        )
+
         if index is not None:
             self.tasks[index] = task
